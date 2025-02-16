@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 section{
     width: 400px;
     height: 400px;
@@ -41,23 +37,23 @@ section{
 @keyframes aparecer-impar {
     from{
         opacity: 0;
-        transform: translateX(500px);
+        /* transform: translateX(500px); */
     }
 
     to{
         opacity: 1;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 }
 
 @keyframes aparecer-par {
     from{
         opacity: 0;
-        transform: translateX(-500px);
+        /* transform: translateX(-500px); */
     }
 
     to{
         opacity: 1;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 }
