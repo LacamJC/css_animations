@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 section{
     width: 400px;
     height: 400px;
     margin: 50px auto;
+    position: relative;
+
+}
+
+@media screen and (max-width: 800px)
+{
+    section{
+        width: 80%;
+        height: 200px;
+    }
 }
 
 .card-impar{
